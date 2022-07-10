@@ -1,0 +1,43 @@
+{
+    "name": "LOGO GENORATE",
+    "description": " Simple Logo Genorate Bot",
+    "keywords": [
+      "telegram",
+      "best",
+      "indian",
+      "pyrogram",
+      "media",
+      "search",
+      "channel",
+      "index",
+      "inline"
+    ],
+    "website": "https://github.com/EpicBotSl/EpicLogo",
+    "repository": "https://github.com/EpicBotSl/EpicLogo",
+    "env": {
+        "BOT_TOKEN": {
+            "description": "Your bot token.",
+            "value": ""
+        },
+        "API_ID": {
+            "description": "Get this value from https://my.telegram.org",
+            "value": "16884543"
+        },
+        "API_HASH": {
+            "description": "Get this value from https://my.telegram.org",
+            "value": "cc4535cefe1fa2e167d75a5e2ac24246"
+        }
+    },
+    "addons": [],
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        }
+    ],
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    }
+}
