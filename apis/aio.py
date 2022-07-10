@@ -23,6 +23,3 @@ from pymongo.errors import ServerSelectionTimeoutError
 print("[EPIC]: Initializing AIOHTTP Session")
 aiohttpsession = ClientSession() 
 
-print("[INFO]: INITIALIZING ARQ CLIENT")
-arq = ARQ(ARQ_API_URL, ARQ_API_KEY, aiohttpsession)
- 
